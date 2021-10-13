@@ -1,0 +1,240 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  color:#797676f7;
+  font-size: 20px;
+}
+.wrapper{
+  max-width: 1600px;
+	padding: 1rem 2rem;
+	margin: auto;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Pacifico';
+  margin: 0;
+  color: #F14091;
+}
+h5{
+  margin: 0px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+/*.... header ....*/
+
+.navbar ul li{
+  margin-left: 72px;
+}
+
+.navbar{
+    padding: 10px 0px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 20px;
+  color: #F14091;
+  font-family: 'Pacifico';
+}
+
+/*.... home page main slider ....*/
+
+.slider{
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-text{
+  border: solid 5px #F14091;
+  width: 47%;
+  text-align: center;
+  padding: 149px 60px;
+  border-top-left-radius: 196px;
+  border-right: none;
+}
+
+.slider-text h1{
+  font-size: 70px;
+  margin: 0;
+}
+
+.slider-button .slider_shop_now_btn, .slider-button .slider_read_more_btn, .welcome_read_more_btn, .welcome_more_detail_btn, .os-more-detail-btn{
+  padding: 15px 55px;
+  border: solid 1px #F14091;
+  border-radius: 30px;
+  color: white;
+  margin-right: 12px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.slider-button .slider_shop_now_btn, .welcome_more_detail_btn, .os-more-detail-btn{
+  background-color: #F14091;
+}
+
+.slider-button .slider_read_more_btn, .welcome_read_more_btn{color: #F14091; background-color: white;}
+
+.slider-image{
+  width: 44%;
+}
+
+.slider-image{
+  background-size: cover !important;
+  border-bottom-right-radius: 196px !important;
+}
+
+/*.... welcome component ....*/
+
+.sbg-image, .bg-image2{
+  width: 450px;
+  position: absolute;
+  margin-top: -152px;
+}
+
+.welcome-section{
+    text-align: center;
+    padding: 85px 260px 0px 260px;
+}
+
+.welcome-section h1{
+  font-size: 50px;  
+}
+
+.welcome-description{
+  padding: 0px 46px;
+  text-align: center;
+  margin: 0px;
+}
+
+.welcome-images{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.welcome-card-image{
+  text-align: center;
+  border: solid;
+  border-bottom-right-radius: 166px;
+  border-top-left-radius: 166px;
+  padding: 30px;
+  border-color: #F14091;
+}
+
+
+.welcome-images .welcome-card-image{
+  img{
+    width: 168px;
+  }
+}
+
+.welcome-card-description{
+  margin-top: 35px;
+  
+  h5, p{
+    text-align: center;
+    margin: 0;
+  }
+
+  p{
+    margin-top: 10px;
+    font-size:18px;
+  }
+
+  h5{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+  }
+
+}
+
+.welcome-btn{
+  padding: 40px 0;
+  text-align: center;
+}
+
+/*....  Over services component ....*/
+
+.over-services-heading{
+  text-align: center;
+}
+
+.os-text-and-images
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+} 
+  
+.os-description-and-images-card{
+  display: flex;
+  width: 59%;
+}
+
+.os-main-descriptions{
+  width: 40%;
+}
+
+.os-small-images{
+    width: 100px !important;
+    height: 100px !important;
+    background-size: cover !important;
+    border: solid 1px #F14091 !important;
+    border-bottom-right-radius: 50px !important;
+    border-top-left-radius: 50px !important;
+    margin: 20px !important;
+}
+
+.os-description-card
+{
+    background-size: cover !important;
+    padding: 45px;
+    text-align: center;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 200px;
+    
+}
+.card-description{
+
+    padding: 193px !important;
+    background-color: #f140917d  !important;
+    border-bottom-right-radius: 200px !important;
+    border-top-left-radius: 200px !important;
+
+    h2, p{
+      color: white;
+    }
+}
+
+.os-description{
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li{
+    margin: 15px;
+  }
+
+  ul li::before {
+    content: "\2022";
+    color: #F14091;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+
+.bg-image2{
+  text-align: right;
+  margin-left: 331px;
+}
