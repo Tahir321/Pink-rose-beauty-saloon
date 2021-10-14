@@ -380,3 +380,48 @@ h2{
     text-align: center;
   }
 }
+
+/*.... Testimonial  ....*/
+
+.testimonial-description{
+  text-align: center;
+  padding: 36px 0;
+
+  p{
+    font-weight: bold;
+  }
+}
+
+.testimonial-client-review
+{
+  text-align: center;
+
+img{
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
+    width: 300px;
+}
+
+.client-review{
+  padding: 0px 20px;
+  
+
+  h5{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    padding: 10px 0px;
+  }
+
+  p{
+    margin: 0;
+    padding: 18px 0px;
+  }
+
+  i{
+    color: #F14091;
+    padding: 10px 0px;
+    margin-right: 5px;
+  }
+}
+}

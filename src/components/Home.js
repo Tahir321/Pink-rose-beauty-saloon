@@ -4,6 +4,8 @@ import Welcome from '../components/Welcome';
 import Overservices from '../components/Overservices'
 import Our_products from '../components/Our_products'
 import Our_pricing from '../components/Our_pricing'
+import Testimonial from '../components/Testimonial'
+
 
 
 const Home = () => {
@@ -14,6 +16,7 @@ const Home = () => {
             <Overservices />
             <Our_products />
             <Our_pricing />
+            <Testimonial />
         </div>
     )
 }
