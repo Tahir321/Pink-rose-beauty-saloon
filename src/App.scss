@@ -16,6 +16,9 @@ h1,h2,h3,h4{
 }
 h5{
   margin: 0px;
+  margin: 0px;
+  color: black;
+  font-weight: bold;
 }
 
 h2{
@@ -188,8 +191,8 @@ h2{
     height: 100px !important;
     background-size: cover !important;
     border: solid 1px #F14091 !important;
-    border-bottom-right-radius: 50px !important;
-    border-top-left-radius: 50px !important;
+    border-bottom-right-radius: 40px !important;
+    border-top-left-radius: 40px !important;
     margin: 20px !important;
 }
 
@@ -415,7 +418,7 @@ img{
 
   p{
     margin: 0;
-    padding: 18px 0px;
+    padding: 18px 250px;
   }
 
   i{
@@ -424,4 +427,151 @@ img{
     margin-right: 5px;
   }
 }
+}
+
+/*.... Footer ....*/
+
+.footer{
+  background: #f140910f;
+  padding: 20px 0 0 0;;
+}
+
+.logo-and-newsletter
+{
+  text-align: center;
+
+h2{
+  font-size: 40px;
+}
+
+  form{
+
+    input{
+      padding: 10px 18px;
+      width: 490px;
+      height: 30px;
+      border: solid 2px #F14091;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    button{
+      padding: 9px 28px;
+      position: absolute;
+      margin-left: -104px;
+      margin-top: 11px;
+      border: none;
+      background-color: #F14091;
+      color: white;
+      border-bottom-right-radius: 14px;
+      border-top-left-radius: 14px;
+    }
+  } 
+}
+
+.footer-detail{
+    display: flex;
+    padding: 50px 0 0 0;
+    justify-content: space-between;
+
+    .f-address{
+      p{
+        width: 200px;
+      }
+    }
+
+    .f-contact-info, .f-opening-hour{
+      p{
+        margin: 6px 0; 
+        font-size: 14px;
+      }
+
+      div{
+        margin: 14px 0px;
+      }
+    }
+
+    .f-quick-links, .f-information{
+
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+
+      ul li{
+        margin: 14px 0; 
+        font-size: 16px;
+        list-style-type: none; font-size: 14px;
+      }
+    }
+
+    .separation-line{
+      border: solid 1px #f1409159;
+    }
+
+    .f-contact-us{
+      form{
+        display: flex;
+        flex-direction: column;
+        
+        input, textarea{
+          width: 355px;
+          border-top-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border: solid 2px #f14091c4;
+          font-size: 12px;
+          padding: 6px;
+          margin:7px 0;
+
+        }
+
+        input{
+          height: 35px;
+        }
+
+        textarea{
+          height: 70px;
+        }
+
+        button{
+          padding: 12px;
+          font-weight: bold;
+          border: none;
+          background: #f14091;
+          color: white;
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+        }
+      }
+    }
+
+}
+  .footer-copyright{
+    background: #f14091de;
+    color: white;
+
+    .end-div{
+      max-width: 1380px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .copyright{
+        p{
+          margin: 5px;
+          font-size: 14px;
+        }
+      }
+
+    .social-links{
+      display: flex;
+      align-items: center;
+
+      h5, i{
+        color: white;
+        margin: 0 10px;
+      }
+    }
+  }
 }

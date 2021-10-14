@@ -5,6 +5,8 @@ import Overservices from '../components/Overservices'
 import Our_products from '../components/Our_products'
 import Our_pricing from '../components/Our_pricing'
 import Testimonial from '../components/Testimonial'
+import Footer from '../components/Footer'
+
 
 
 
@@ -17,6 +19,7 @@ const Home = () => {
             <Our_products />
             <Our_pricing />
             <Testimonial />
+            <Footer />
         </div>
     )
 }
