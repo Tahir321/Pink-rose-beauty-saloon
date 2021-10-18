@@ -3,17 +3,23 @@ import React from 'react'
 const Header = () => {
     return (
         <div className="wrapper">
-            <div className="navbar">
-                <img src="images/logo.png" />
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" className="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label className="logo">
+                    <img src="images/logo.png" />
+                </label>
                 <ul>
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>Cart</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Blog</li>
+                    <li><a href="#" className="active">Home</a></li>
+                    <li><a href="#" className="active">Shop</a></li>
+                    <li><a href="#" className="active">About</a></li>
+                    <li><a href="#" className="active">Contact</a></li>
+                    <li><a href="#" className="active">Services</a></li>
+                    <li><a href="#" className="active">Cart</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     )
 }
